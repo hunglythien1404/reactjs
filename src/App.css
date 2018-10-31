@@ -1,32 +1,27 @@
-.App {
-  text-align: center;
+.youtube {
+    width: 520px;
+    height: 315px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.videoPlay {
+    width: 570px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.videoList {
+    width: 680px;
 }
 
-.App-link {
-  color: #61dafb;
+.comment {
+    width: 500px;
+    border: 1px solid black;
+    resize: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.commentbox {
+    border: 2px solid #005cbf;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
 }
